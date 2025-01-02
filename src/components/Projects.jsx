@@ -1,6 +1,8 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
-import olova from "../assets/images/olova.png";
+import p1 from "../assets/images/p1.png";
+import p2 from "../assets/images/p2.png";
+import p3 from "../assets/images/p3.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const MacOsButtons = () => (
@@ -14,15 +16,78 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "Odyssy Travel Agency",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
+        "A comprehensive Travel Agency website offering tour packages from various countries. Users can log in to browse, select packages, customize their trip with flight and hotel options, and proceed to payment securely. Admins manage packages with CRUD operations and add local tour guide details for enhanced user experience.",
+      tags: [
+        "JavaScript",
+        "Next JS",
+        "Web Development",
+        "Tailwind CSS",
+        "DaisyUI",
+        "UI Components",
+        "NPM Packages",
+        "MySQL",
+        "Firebase",
+        "Node.js",
+        "Express.js",
+        "Stripe",
+      ],
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        github: "https://github.com/ArnabShikder24/odyssey-travel-client",
+        demo: "https://github.com/ArnabShikder24/odyssey-travel-client",
       },
-      image: olova,
+      image: p3,
+      featured: true,
+    },
+    {
+      title: "BagsQ",
+      description:
+        "BagsQ is a comprehensive workflow management solution designed for workshops and service providers. Powered by a dedicated team from Sydney’s Northern Beaches, it streamlines daily operations with features like one-click customer management, automated service reminders, efficient inspections, and technician productivity tracking. With an intuitive interface and versatile tools, BagsQ optimizes workflows, saves time, and ensures seamless inventory management.",
+      tags: [
+        "JavaScript",
+        "Next JS",
+        "Web Development",
+        "Tailwind CSS",
+        "DaisyUI",
+        "UI Components",
+        "NPM Packages",
+        "MySQL",
+        "Firebase",
+        "Node.js",
+        "Express.js",
+        "Stripe",
+      ],
+      links: {
+        github: "https://github.com/emonmorol/bagsq-client",
+        demo: "https://bagsq12.web.app/",
+      },
+      image: p1,
+      featured: true,
+    },
+    {
+      title: "Blood Donation Management",
+      description:
+        "A user-friendly platform connecting blood donors and recipients efficiently. Users can donate blood and request it when needed, with features to search by blood group and view nearby donation requirements. The site ensures security using JSON Web Token (JWT) and implements a restriction to prevent users from donating more than once within 3 months.",
+      tags: [
+        "JavaScript",
+        "Next JS",
+        "Web Development",
+        "Tailwind CSS",
+        "DaisyUI",
+        "UI Components",
+        "NPM Packages",
+        "MySQL",
+        "Firebase",
+        "Node.js",
+        "Express.js",
+        "Stripe",
+      ],
+      links: {
+        github: "https://github.com/emonmorol/blood_boddies",
+        demo: "https://blood-buddies-donation.web.app/",
+      },
+      image: p2,
       featured: true,
     },
   ];
