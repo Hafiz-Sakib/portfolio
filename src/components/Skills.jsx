@@ -29,6 +29,26 @@ const SkillCard = ({ icon: Icon, title, skills, color }) => (
 const SkillsSection = () => {
   const skillCategories = [
     {
+      icon: Cpu,
+      title: "Programming Languages",
+      color: "text-green-400",
+      skills: [
+        "C",
+        "C++",
+        "C#",
+        "Ruby",
+        "Dart",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express.js",
+        "Python",
+      ],
+    },
+    {
       icon: Code2,
       title: "Frontend Development",
       color: "text-blue-400",
