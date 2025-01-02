@@ -8,20 +8,24 @@ const AboutMe = () => {
         <div className="content max-w-2xl">
           <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO I AM?</h2>
           <p className="text-lg leading-relaxed">
-            Hello! I’m Nazmul Hossain, a passionate JavaScript developer
-            specializing in creating innovative web solutions and user-friendly
-            interfaces. As the creator of the{" "}
-            <a className="text-[#4ECCA3] px-2" href="https://olova.js.org/">
-              OlovaJS
-            </a>{" "}
-            UI Framework, I’m dedicated to simplifying development workflows and
-            pushing the boundaries of JavaScript frameworks. My focus is on
-            making web development faster, easier, and accessible to all
-            developers. Currently, I’m expanding into backend development to
-            grow as a full-stack developer and create seamless, robust web
-            applications. I’m a lifelong learner and innovator, driven by a
-            desire to contribute to the developer community with new ideas and
-            tools that deliver real value.
+            Hi there! I’m a passionate MERN Stack developer, currently pursuing
+            a BSc in Computer Science and Engineering at Premier University,
+            Chattogram. With my skills in web development, I specialize in
+            building websites that are both functional and tailored to your
+            specific needs. As a Codeforces{""}
+            <a
+              className="text-[#4ECCA3] px-2"
+              href="https://codeforces.com/profile/Hafiz_Sakib"
+            >
+              Pupil
+            </a>
+            {""}
+            and a LeetCode user with a rating of 1500+, I enjoy solving coding
+            challenges and applying problem-solving techniques to my projects.
+            I’m a creative thinker with the ability to manage multiple tasks at
+            once, always delivering quality results. With a positive attitude
+            and a love for learning new technologies, I’m excited to bring your
+            ideas to life and create exceptional digital experiences!
           </p>
         </div>
         <div className="image-container">
