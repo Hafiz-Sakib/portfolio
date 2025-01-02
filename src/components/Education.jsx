@@ -8,15 +8,24 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "Govt. Muslim High School",
+      timeline: "2015-2017",
       mascot: "📘",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      achievements: ["GPA: -99.99", "Group: Science"],
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Govt. Hazi Mohammad Mohsin College",
+      timeline: "2017-2019",
       mascot: "📗",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
+      achievements: ["GPA: -99.99", "Group: Science"],
+    },
+    {
+      degree: "B.sc In Computer Science & Engineering",
+      school: "Premier University,Chittagong",
+      timeline: "2022-2026",
+      mascot: "📗",
+      achievements: ["CGPA: -99.99", "Major: Software Engineering"],
     },
   ];
 
@@ -60,6 +69,10 @@ const EducationSection = () => {
                     <p className="text-lg text-slate-400 flex items-center gap-2">
                       <Star className="w-5 h-5 text-teal-500" />
                       {edu.school}
+                    </p>
+                    <p className="text-lg text-slate-400 flex items-center gap-2">
+                      <Star className="w-5 h-5 text-teal-500" />
+                      {edu.timeline}
                     </p>
                     <p className="text-slate-500 flex items-center gap-2">
                       <Calendar className="w-4 h-4" />
