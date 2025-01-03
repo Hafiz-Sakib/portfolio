@@ -16,7 +16,7 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
-      title: "Odyssy Travel Agency",
+      title: "Odyssey Travel Agency",
       description:
         "A comprehensive Travel Agency website offering tour packages from various countries. Users can log in to browse, select packages, customize their trip with flight and hotel options, and proceed to payment securely. Admins manage packages with CRUD operations and add local tour guide details for enhanced user experience.",
       tags: [
