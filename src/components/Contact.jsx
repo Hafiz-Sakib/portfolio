@@ -1,5 +1,15 @@
 import { useState } from "react";
 import { Send, Phone, MapPin, Mail } from "lucide-react";
+import {
+  SiFacebook,
+  SiInstagram,
+  SiLinkedin,
+  SiGithub,
+  SiCodeforces,
+  SiLeetcode,
+  SiMessenger,
+  SiX,
+} from "react-icons/si";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -82,7 +92,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Location</h3>
                     <p className="text-gray-400">
-                      33/A,Chatteshori Road,Chawkbazar,Chattogram,Bangladesh
+                      33/A, Chatteshori Road, Chawkbazar, Chattogram, Bangladesh
                     </p>
                   </div>
                 </div>
@@ -95,6 +105,85 @@ export default function Contact() {
                     <h3 className="font-semibold">Phone No</h3>
                     <p className="text-gray-400">01516195903</p>
                   </div>
+                </div>
+              </div>
+
+              {/* Social Media Links */}
+              <div className="space-y-4">
+                <h3 className="text-lg font-semibold">Follow Me</h3>
+                <div className="flex space-x-6">
+                  <a
+                    href="https://www.facebook.com/Sakib1056"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-blue-600/10 p-3 rounded-lg hover:bg-blue-600/20">
+                      <SiFacebook className="w-6 h-6 text-blue-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://m.me/Sakib1056"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-blue-600/20 p-3 rounded-lg hover:bg-blue-600/30">
+                      <SiMessenger className="w-6 h-6 text-blue-400 hover:text-blue-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://x.com/hafiz_sakib1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-black p-3 rounded-lg hover:bg-gray-800/30">
+                      <SiX className="w-6 h-6 text-white hover:text-cyan-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/s_a_k_i_b_1056/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-pink-600/10 p-3 rounded-lg hover:bg-pink-600/20">
+                      <SiInstagram className="w-6 h-6 text-pink-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/hafiz-sakib-96b8b3229/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
+                      <SiLinkedin className="w-6 h-6 text-blue-600" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Hafiz-Sakib"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-gray-600/20 00 p-3 rounded-lg hover:bg-gray-400">
+                      <SiGithub className="w-6 h-6 text-black" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://codeforces.com/profile/hafiz_sakib"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
+                      <SiCodeforces className="w-6 h-6 text-red-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://leetcode.com/hafiz_Sakib/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
+                      <SiLeetcode className="w-6 h-6 text-orange-600" />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -162,11 +251,6 @@ export default function Contact() {
               </form>
 
               {/* Status Message */}
-              {/* {status && (
-                <div className="mt-4 p-4 text-center text-white bg-gradient-to-r from-lime-500 to-green-600 rounded-lg shadow-lg transition-transform transform-gpu animate-bounceIn">
-                  <p>{status}</p>
-                </div>
-              )} */}
               {status && (
                 <>
                   {/* Background Blur */}
