@@ -42,7 +42,9 @@ export default function Contact() {
       const result = await response.json();
 
       if (response.ok) {
-        setStatus("Message sent successfully!");
+        setStatus(
+          "🎉 Message Received! Thank you for reaching out to me. 🙌 I'll get back to you shortly! 😊✨"
+        );
         setFormData({
           name: "",
           email: "",
