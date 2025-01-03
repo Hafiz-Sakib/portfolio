@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import EducationLoader from "./ui/EducationLoader";
 import { Star, Award, Calendar } from "lucide-react";
 
