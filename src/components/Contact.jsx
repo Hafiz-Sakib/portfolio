@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Send, Phone, MapPin, Mail } from "lucide-react";
 import { useHistory } from "react-router-dom";
 
@@ -171,7 +171,7 @@ export default function Contact() {
                       <p className="text-lg font-semibold mb-4">{status}</p>
                       <button
                         onClick={() => history.push("/")} // Redirect to homepage
-                        className="px-4 py-2 bg-green-400 hover:bg-blue-600 text-white font-bold rounded transition-all"
+                        className="px-4 py-2 bg-blue-400 hover:bg-blue-600 text-white font-bold rounded transition-all"
                       >
                         OK
                       </button>
