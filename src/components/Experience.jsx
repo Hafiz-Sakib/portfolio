@@ -57,13 +57,13 @@ const ExperienceSection = () => {
     {
       icon: Network,
       title: "Course Instructor",
-      company: "Programming Hero",
+      company: "ICT School",
       period: "2021-22",
       description:
-        "An instructor with expertise in programming, dedicated to guiding students through hands-on learning and real-world coding challenges.",
+        "Guided students in learning the fundamentals of programming, covering essential concepts such as variables, loops, conditionals, and basic problem-solving. Focused on fostering a strong foundation and instilling confidence in coding through practical examples and hands-on practice.",
     },
     {
-      icon: Layers,
+      icon: Code2,
       title: "Junior Frontend Developer",
       company: "CodeStack",
       period: "2022 - 2023",
@@ -71,10 +71,11 @@ const ExperienceSection = () => {
         "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
     },
     {
-      icon: Code2,
+      // Code2, Activity, Cpu, Layers, Network, Binary
+      icon: Activity,
       title: "Software Engineering Intern",
       company: "Pathao Courier",
-      period: "2023 - Present",
+      period: "2024 - Present",
       description:
         "Contributed to optimizing logistics algorithms and improving the efficiency of courier tracking systems.",
     },
