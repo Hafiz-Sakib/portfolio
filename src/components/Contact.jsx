@@ -153,7 +153,7 @@ export default function Contact() {
 
               {/* Status Message */}
               {status && (
-                <div className="mt-4 text-center text-gray-300">
+                <div className="mt-4 p-4 text-center text-white bg-gradient-to-r from-lime-500 to-green-600 rounded-lg shadow-lg transition-transform transform-gpu animate-bounceIn">
                   <p>{status}</p>
                 </div>
               )}
