@@ -49,12 +49,12 @@ const AnimatedGrid = () => {
 
 export default function Hero() {
   const words = [
-    "Full-Stack Developer & UI/UX Enthusiast",
-    "Passionate About Javascript & React",
-    "Learning  Mobile App Development using Flutter",
     "Learning Complex Data Structures and Agorithms",
     "Solving Problems in Several Online Judges",
-    "Linux & GitHub for DevOps Enthusiast",
+    "Passionate About Javascript & React",
+    "Full-Stack Developer & UI/UX Enthusiast",
+    "Learning  Mobile App Development using Flutter",
+    "Linux and GitHub for the DevOps Enthusiast",
   ];
 
   const [code] = useState(`
