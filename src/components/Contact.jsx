@@ -9,6 +9,7 @@ import {
   SiLeetcode,
   SiMessenger,
   SiX,
+  SiWhatsapp,
 } from "react-icons/si";
 
 export default function Contact() {
@@ -132,6 +133,16 @@ export default function Contact() {
                   >
                     <div className="bg-blue-600/20 p-3 rounded-lg hover:bg-blue-600/30">
                       <SiMessenger className="w-6 h-6 text-blue-400 hover:text-blue-500" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+8801516195904&text=Hello,%20more%20information!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0"
+                  >
+                    <div className="bg-green-600/20 p-3 rounded-lg hover:bg-green-600/30">
+                      <SiWhatsapp className="w-6 h-6 text-green-400 hover:text-green-500" />
                     </div>
                   </a>
                   <a
