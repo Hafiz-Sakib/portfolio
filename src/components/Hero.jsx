@@ -50,8 +50,10 @@ const AnimatedGrid = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
-    "Learning MARN Stack",
+    "Passionate About Javascript & React",
+    "Learning  Mobile App Development using Flutter",
+    "Learning Complex Data Structures and Agorithms",
+    "Solving Problems in Several Online Judges",
     "Linux & GitHub for DevOps Enthusiast",
   ];
 
