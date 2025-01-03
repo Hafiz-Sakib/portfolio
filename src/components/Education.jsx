@@ -24,7 +24,7 @@ const EducationSection = () => {
       degree: "B.sc In Computer Science & Engineering",
       school: "Premier University,Chittagong",
       timeline: "2022-2026",
-      mascot: "📗",
+      mascot: "📕",
       achievements: ["CGPA: -99.99", "Major: Software Engineering"],
     },
   ];
