@@ -18,7 +18,7 @@ const AboutMe = () => {
               target="_blank"
               href="https://codeforces.com/profile/Hafiz_Sakib"
             >
-              Pupil
+              PUPIL
             </a>
             {""}
             and a LeetCode user with a rating of 1500+, I enjoy solving coding
