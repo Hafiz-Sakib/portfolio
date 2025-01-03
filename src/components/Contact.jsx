@@ -152,10 +152,29 @@ export default function Contact() {
               </form>
 
               {/* Status Message */}
-              {status && (
+              {/* {status && (
                 <div className="mt-4 p-4 text-center text-white bg-gradient-to-r from-lime-500 to-green-600 rounded-lg shadow-lg transition-transform transform-gpu animate-bounceIn">
                   <p>{status}</p>
                 </div>
+              )} */}
+              {status && (
+                <>
+                  {/* Background Blur */}
+                  <div className="fixed inset-0 bg-gray-800 bg-opacity-50 backdrop-blur-sm z-50"></div>
+
+                  {/* Modal */}
+                  <div className="fixed inset-0 flex justify-center items-center z-50">
+                    <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg text-white text-center w-80">
+                      <p className="text-lg font-semibold mb-4">{status}</p>
+                      <button
+                        onClick={() => (window.location.href = "/")} // Redirect to homepage
+                        className="px-4 py-2 bg-green-400 hover:bg-blue-600 text-white font-bold rounded transition-all"
+                      >
+                        OK
+                      </button>
+                    </div>
+                  </div>
+                </>
               )}
             </div>
           </div>
