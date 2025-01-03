@@ -49,8 +49,8 @@ const AnimatedGrid = () => {
 
 export default function Hero() {
   const words = [
-    "Learning Complex Data Structures and Agorithms",
     "Solving Problems in Several Online Judges",
+    "Learning Complex Data Structures and Agorithms",
     "Passionate About Javascript & React",
     "Full-Stack Developer & UI/UX Enthusiast",
     "Learning  Mobile App Development using Flutter",
