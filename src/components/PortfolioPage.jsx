@@ -15,6 +15,7 @@ const AboutMe = () => {
             specific needs. As a Codeforces{""}
             <a
               className="text-[#4ECCA3] px-2"
+              target="_blank"
               href="https://codeforces.com/profile/Hafiz_Sakib"
             >
               Pupil
