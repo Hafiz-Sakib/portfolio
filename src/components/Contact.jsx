@@ -106,7 +106,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Phone No</h3>
-                    <p className="text-gray-400">+8801516195903</p>
+                    <p className="text-gray-400">+8801516195904</p>
                   </div>
                 </div>
               </div>
