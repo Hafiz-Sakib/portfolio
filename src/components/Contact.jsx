@@ -113,11 +113,12 @@ export default function Contact() {
               {/* Social Media Links */}
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold">Follow Me</h3>
-                <div className="flex space-x-6">
+                <div className="flex flex-wrap gap-4">
                   <a
                     href="https://www.facebook.com/Sakib1056"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-blue-600/10 p-3 rounded-lg hover:bg-blue-600/20">
                       <SiFacebook className="w-6 h-6 text-blue-500" />
@@ -127,6 +128,7 @@ export default function Contact() {
                     href="https://m.me/Sakib1056"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-blue-600/20 p-3 rounded-lg hover:bg-blue-600/30">
                       <SiMessenger className="w-6 h-6 text-blue-400 hover:text-blue-500" />
@@ -136,6 +138,7 @@ export default function Contact() {
                     href="https://x.com/hafiz_sakib1"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-black p-3 rounded-lg hover:bg-gray-800/30">
                       <SiX className="w-6 h-6 text-white hover:text-cyan-500" />
@@ -145,6 +148,7 @@ export default function Contact() {
                     href="https://www.instagram.com/s_a_k_i_b_1056/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-pink-600/10 p-3 rounded-lg hover:bg-pink-600/20">
                       <SiInstagram className="w-6 h-6 text-pink-500" />
@@ -154,6 +158,7 @@ export default function Contact() {
                     href="https://www.linkedin.com/in/hafiz-sakib-96b8b3229/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
                       <SiLinkedin className="w-6 h-6 text-blue-600" />
@@ -163,8 +168,9 @@ export default function Contact() {
                     href="https://github.com/Hafiz-Sakib"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
-                    <div className="bg-gray-600/20 00 p-3 rounded-lg hover:bg-gray-400">
+                    <div className="bg-gray-600/20 p-3 rounded-lg hover:bg-gray-400">
                       <SiGithub className="w-6 h-6 text-black" />
                     </div>
                   </a>
@@ -172,6 +178,7 @@ export default function Contact() {
                     href="https://codeforces.com/profile/hafiz_sakib"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
                       <SiCodeforces className="w-6 h-6 text-red-500" />
@@ -181,6 +188,7 @@ export default function Contact() {
                     href="https://leetcode.com/hafiz_Sakib/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex-shrink-0"
                   >
                     <div className="bg-blue-700/10 p-3 rounded-lg hover:bg-blue-600/20">
                       <SiLeetcode className="w-6 h-6 text-orange-600" />
