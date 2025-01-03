@@ -1,5 +1,6 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Activity, Cpu, Network, Binary } from "lucide-react";
+import PropTypes from "prop-types";
 
 const ExperienceCard = ({
   title,
@@ -51,6 +52,13 @@ const ExperienceCard = ({
     </div>
   </div>
 );
+ExperienceCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  period: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  icon: PropTypes.elementType.isRequired,
+};
 
 const ExperienceSection = () => {
   const experiences = [
@@ -60,7 +68,7 @@ const ExperienceSection = () => {
       company: "ICT School",
       period: "2021-22",
       description:
-        "Guided students in learning the fundamentals of programming, covering essential concepts such as variables, loops, conditionals, and basic problem-solving. Focused on fostering a strong foundation and instilling confidence in coding through practical examples and hands-on practice.",
+        "Helped students learn programming basics with simple, hands-on guidance and real-world examples.",
     },
     {
       icon: Code2,
@@ -98,7 +106,7 @@ const ExperienceSection = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-purple-400/30 to-indigo-400/30 blur-xl rounded-xl" />
             </div>
             <p className="text-sm md:text-lg text-gray-400 font-medium italic tracking-wide">
-              "Crafting stories, one milestone at a time..."
+              &quot;Crafting stories, one milestone at a time...&quot;
             </p>
             <div className="animate-pulse mt-4 w-6 h-6 border-4 border-dashed border-cyan-400 rounded-full" />
           </div>
