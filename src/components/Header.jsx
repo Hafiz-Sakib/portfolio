@@ -3,6 +3,7 @@ import {
   FaHome,
   FaLaptopCode,
   FaUser,
+  FaBrain,
   FaBriefcase,
   FaGraduationCap,
   FaCode,
@@ -34,6 +35,7 @@ export default function Header() {
       text: "Education",
       path: "/education",
     },
+    { id: "cp", icon: FaBrain, text: "CP", path: "/competitive" },
     { id: "projects", icon: FaLaptopCode, text: "Projects", path: "/projects" },
     { id: "contact", icon: FaEnvelope, text: "Contact", path: "/contact" }, // Added Connect
   ];

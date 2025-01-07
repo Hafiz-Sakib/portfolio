@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import CompetitiveProgramming from "./components/CompetitiveProgramming";
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/competitive" element={<CompetitiveProgramming />} />
         </Routes>
       )}
     </>
