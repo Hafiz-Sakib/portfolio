@@ -181,7 +181,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     className="flex-shrink-0"
                   >
-                    <div className="bg-gray-600/20 p-3 rounded-lg hover:bg-gray-400">
+                    <div className="bg-gray-600/20 p-3 rounded-lg hover:bg-white">
                       <SiGithub className="w-6 h-6 text-black" />
                     </div>
                   </a>
