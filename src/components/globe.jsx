@@ -31,6 +31,47 @@ const slugs = [
   "androidstudio",
   "sonarqube",
   "figma",
+  "python",
+  "cpp", // C++
+  "c", // C
+  "php",
+  "flutter",
+  "mysql",
+  "mongodb",
+  "graphql",
+  "tailwindcss",
+  "kubernetes",
+  "jenkins",
+  "webpack",
+  // More additional icons
+  "go", // Go language
+  "ruby",
+  "swift",
+  "redux",
+  "angular",
+  "selenium",
+  "electron",
+  "heroku",
+  "azure",
+  "pandas",
+  // New AI, Software Engineering, OS, Networking, and Architecture additions
+  "tensorflow",
+  "pytorch",
+  "scikitlearn",
+  "keras",
+  "numpy",
+  "matplotlib",
+  "jupyter",
+  "linux",
+  "ubuntu",
+  "bash",
+  "shell",
+  "windows",
+  "virtualbox",
+  "wireshark",
+  "redis",
+  "apache",
+  "tensorflowlite",
 ];
 
 function IconCloudDemo() {
