@@ -7,10 +7,10 @@ const EducationLoader = () => {
         {/* Loading Icon */}
         <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-blue-500"></div>
         {/* Loading Text */}
-        <p className="text-lg font-semibold">New education is loading...</p>
+        <p className="text-lg font-semibold">
+          Loading more academic achievements...
+        </p>
       </div>
-
-      {/* Future Content Section */}
       <div className="mt-6 text-center">
         <p className="text-sm text-gray-400">Stay tuned!</p>
       </div>
