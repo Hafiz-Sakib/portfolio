@@ -19,7 +19,9 @@ const CompetitiveProgrammingCard = ({
     href={profileUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="group relative bg-gray-800 rounded-xl shadow-[0px_0px_40px_rgba(0,0,255,0.5)] transform transition-all duration-300 hover:scale-105 hover:shadow-[0px_0px_80px_rgba(0,0,255,0.7)] overflow-hidden"
+    className="group relative bg-gray-800 rounded-xl shadow-[0px_0px_40px_#3498dbcc] transform transition-all duration-300 hover:scale-105 hover:shadow-[0px_0px_80px_#3498dbea] overflow-hidden"
+
+    //  className="group relative bg-gray-800 rounded-xl shadow-[0px_0px_40px_rgba(0,0,255,0.5)] transform transition-all duration-300 hover:scale-105 hover:shadow-[0px_0px_80px_rgba(0,0,255,0.7)] overflow-hidden"
   >
     <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 opacity-20 group-hover:opacity-30 transition-all duration-300" />
     <div className="relative p-8 space-y-6 bg-gray-900 rounded-xl">
