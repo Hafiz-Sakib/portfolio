@@ -17,14 +17,14 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/1tMJNYjy/ss.png)
+![Portfolio Demo](https://i.postimg.cc/8zfKzWbV/ss.png)
 
 ---
 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://hafizsakib.vercel.app/)
+[**Live Demo**](hafizsakib.vercel.app)
 
 ---
 
