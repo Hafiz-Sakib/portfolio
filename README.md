@@ -52,6 +52,7 @@ portfolio/
 │   │   │   │
 │   │   │   ├── Main Components/
 │   │   │   │   ├── AnimatedGrid.jsx
+│   │   │   │   ├── CompetitiveProgramming.jsx
 │   │   │   │   ├── Contact.jsx
 │   │   │   │   ├── Education.jsx
 │   │   │   │   ├── enhanced-portfolio-card.jsx
